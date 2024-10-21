@@ -1,10 +1,9 @@
 import { Task, PriorityTask } from './Task';
 import { calculateTotalCompletedTasks } from './taskUtils';
 import { fetchTasks } from './fetchTasks';
-import { assignTask, TeamMember } from '../TeamMember';
+import { assignTask, TeamMember } from './TeamMember';
 import { getTaskTitles, getIncompleteTasks, getCompletedTaskCount } from './ArrayMethods';
 
-// Sample usage
 async function main() {
     const tasks: Task[] = [
         new Task('Task 1', 'Description 1', true),

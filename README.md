@@ -15,4 +15,9 @@ This is a TypeScript implementation of a Task Management System that allows team
 - TypeScript
 - Node.js
 
-- Soravith Puvekit 1640705115
+## How to run
+- npm install -g typescript
+- node index.js
+
+
+# Soravith Puvekit 1640705115
